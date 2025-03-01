@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+body, html {
+  background-color: black;
+  .scrollbar {
+    scrollbar-width: thin;
+  }
+  .scrollbar-thumb-red-600 {
+    scrollbar-color: #dc2626 #000000;
+  }
+  .scrollbar-track-black {
+    scrollbar-color: #dc2626 #000000;
+  }
+}
+
+/* Default marquee animation for larger screens */
+@keyframes marquee-horizontal {
+  0% { transform: translateX(70%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee-horizontal {
+  animation: marquee-horizontal 30s linear infinite;
+  will-change: transform;
+}
+
+@media (max-width: 640px) {
+
+  @keyframes marquee-horizontal {
+    0% { transform: translateX(20%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-marquee-horizontal {
+    
+    animation: marquee-horizontal 20s linear infinite;
+    animation-duration: 20s;
+    animation-play-state: running;
+  }
+
+  .animate-marquee-horizontal:hover {
+    animation-play-state: paused;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.will-change-transform {
+  will-change: transform;
+}
+.scrollbar {
+  scrollbar-width: thin;
+}
+.scrollbar-thumb-red-600 {
+  scrollbar-color: #dc2626 #000000;
+}
+.scrollbar-track-black {
+  scrollbar-color: #dc2626 #000000;
+}
