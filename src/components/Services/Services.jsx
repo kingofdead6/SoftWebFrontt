@@ -156,7 +156,7 @@ const Services = () => {
                 <div className="mt-4 space-y-3">
                   <p className="text-red-500 font-bold text-lg">{service.offerPrice || service.price}</p>
                   {service.offerPrice && <p className="text-gray-400 line-through text-sm">{service.price}</p>}
-                  <Link to="/contact">
+                  <Link to="/SoftWeb-Front/contact">
                     <motion.button
                       className="bg-red-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-red-700 transition-colors duration-300"
                       whileHover={{ scale: 1.05 }}

@@ -44,7 +44,7 @@ const Hero = () => {
         }}
       >
         <Link
-          to="/service"
+          to="/SoftWeb-Front/service"
           className="relative px-6 py-3 xs:px-8 xs:py-3 sm:px-10 sm:py-4 text-base xs:text-lg sm:text-xl font-semibold text-white uppercase rounded-full transition-all duration-300 transform 
             bg-gradient-to-r from-[#ff1e1e] via-[#d50000] to-[#e90000] 
             shadow-[0_15px_30px_rgba(255,30,30,0.7)] 

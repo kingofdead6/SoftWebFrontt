@@ -17,7 +17,7 @@ const CallToAction = () => {
         <p className="text-white text-base sm:text-lg md:text-xl mb-6 sm:mb-8">
           Let’s create something extraordinary.
         </p>
-        <Link to="/contact" >
+        <Link to="/SoftWeb-Front/contact" >
          <motion.a
           className="inline-block px-6 py-3 sm:px-8 sm:py-4 text-base sm:text-lg font-semibold text-white bg-transparent border-2 border-red-600 rounded-lg hover:bg-red-600 hover:border-red-700"
           whileHover={{

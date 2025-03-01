@@ -79,7 +79,7 @@ const OurServices = () => {
         transition={{ duration: 1, delay: 1 }}
       >
         <Link
-          to="/contact"
+          to="/SoftWeb-Front/contact"
           className="relative px-6 xs:px-8 sm:px-10 py-3 xs:py-3 sm:py-4 text-base xs:text-lg sm:text-xl font-semibold text-white uppercase rounded-full transition-all duration-300 transform 
             bg-gradient-to-r from-[#ff1e1e] via-[#d50000] to-[#e90000] 
             shadow-[0_15px_30px_rgba(255,30,30,0.7)] 

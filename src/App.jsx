@@ -11,11 +11,12 @@ function App() {
   return (
     <Router>
       <NavBar />
+      <Home />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/SoftWeb-Front/" element={<Home />} />
+        <Route path="/Softweb-Front/aboutus" element={<AboutUs />} />
+        <Route path="/Softweb-Front/service" element={<Service />} />
+        <Route path="/Softweb-Front/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
