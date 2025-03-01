@@ -83,7 +83,7 @@ const FAQ = () => {
             transition={{ duration: 0.8, delay: index * 0.1, ease: "easeOut" }}
             viewport={{ once: true }}
             whileHover={{ 
-              scale: 1.02, // Slightly reduced scale for mobile
+              scale: 1.02, 
               boxShadow: "10px 20px 20px rgba(255, 0, 0, 0.7)",
             }}
           >

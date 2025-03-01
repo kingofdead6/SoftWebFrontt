@@ -4,10 +4,10 @@ import Logo from '../../assets/Logo.png';
 import { useState, useEffect } from 'react';
 
 const navLinks = [
-  { name: "Home", path: "/SoftWeb-Front/" },
-  { name: "About", path: "/SoftWeb-Front/aboutus" },
-  { name: "Services", path: "/SoftWeb-Front/service" },
-  { name: "Contact", path: "/SoftWeb-Front/contact" }
+  { name: "Home", path: "/SoftWeb_Front/" },
+  { name: "About", path: "/SoftWeb_Front/aboutus" },
+  { name: "Services", path: "/SoftWeb_Front/service" },
+  { name: "Contact", path: "/SoftWeb_Front/contact" }
 ];
 
 const NavBar = () => {

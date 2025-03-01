@@ -13,10 +13,10 @@ function App() {
       <NavBar />
       <Home />
       <Routes>
-        <Route path="/SoftWeb-Front/" element={<Home />} />
-        <Route path="/Softweb-Front/aboutus" element={<AboutUs />} />
-        <Route path="/Softweb-Front/service" element={<Service />} />
-        <Route path="/Softweb-Front/contact" element={<Contact />} />
+        <Route path="/SoftWeb_Front/" element={<Home />} />
+        <Route path="/Softweb_Front/aboutus" element={<AboutUs />} />
+        <Route path="/Softweb_Front/service" element={<Service />} />
+        <Route path="/Softweb_Front/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
